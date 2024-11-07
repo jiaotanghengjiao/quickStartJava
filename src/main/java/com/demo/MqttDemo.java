@@ -26,8 +26,8 @@ public class MqttDemo {
     private int qosLevel = 1;
     private MqttAsyncClient client;
     // 创建设备时获得的deviceId，密钥（要替换为自己注册的设备ID与密钥）
-    static String deviceId = "672c29d167683a44c2157066_Test_1";
-    static String secret = "12345678";
+    static String deviceId = "xxxxxx";
+    static String secret = "xxxx";
     private long minBackoff = 1000;
     private long maxBackoff = 30 * 1000; //30 seconds
     private long defaultBackoff = 1000;
